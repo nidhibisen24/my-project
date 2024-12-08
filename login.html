@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+    <link rel="stylesheet" href="logincss.css">
+    <link rel="stylesheet" href="login.js">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="login-box">
+        <h1>Login</h1>
+        <form action="" method="post">
+        <label for="">Email</label>
+        <input type="text" placeholder="" name="email" id="email" >
+        <label for="">Password</label>
+        <input type="Password" placeholder="" name="password" id="password">
+        <div class="form-link">
+        <a href="">Forget Password</a>
+         </div>
+          <button type="button" onclick="login()">Submit</button> 
+        </form><br>
+        <div class="line"></div>
+        <div class="line"></div><br>
+        <div class="media-option">
+        <a href="#" class="field facebook">
+            <i class='bx-fw bx bxl-facebook-square'></i>
+        <span>Login with Facebook</span>
+        </a><br><br>
+        <a href="#" class="field Google">
+            <i class='bx bxl-google' ></i>
+             <span>Login with Google</span>
+        </a>
+        
+    </div>
+    <p class="para-2">Not have an account? <a href="singup.html">Sign Up Here</a></p>
+</div>
+     <div id="welcomepage" style="display: none;">
+      <h1>welcome</h1>
+      <p>you are now login in.</p>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>

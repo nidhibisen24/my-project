@@ -1,0 +1,211 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:cursive ;
+    /* background-color: blueviolet; */
+}
+.sub-menu-wrap {
+    display: none;
+    position: absolute;
+    background-color: rgb(247, 229, 229);
+    z-index: 1;
+    padding: 0;
+}
+.drop:hover .sub-menu-wrap {
+    display: block;
+    color: rgb(27, 41, 241);
+    box-shadow: none;
+    width: 150px;
+}
+.sub-menu-wrap li {
+    margin: 0;
+    text-align: center;
+}
+.sub-menu-wrap a {
+    padding: 10px 20px;
+    display: block;
+}
+/* Add hover effect to the dropdown items */
+.sub-menu-wrap a:hover {
+    background-color:skyblue;
+}
+
+
+nav ul {
+    list-style: none;
+    background-color:#bae4db;
+    padding: 0;
+    margin: 0;
+    /* text-align: center; */
+    padding-left: 30px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    font-family: cursive;
+}
+.icon{
+    font-size: 30px;
+}
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+    position: relative;
+}
+nav ul li a:hover{
+    color: rgb(29, 32, 233);
+    border-radius: 5px;
+    box-shadow: 0 0  5px #3633ff,
+                0 0  5px #66ffff;
+}
+nav a {
+    text-decoration: none;
+    color: #050000;
+    padding: 10px 20px;
+    display: block;
+}
+/* Style the dropdown menu */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: rgb(247, 229, 229);
+    z-index: 1;
+    padding: 0;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+    color: rgb(27, 41, 241);
+    box-shadow: none;
+    width: 100px;
+}
+.dropdown-menu li {
+    margin: 0;
+    text-align: center;
+}
+.dropdown-menu a {
+    padding: 10px 20px;
+    display: block;
+}
+/* Add hover effect to the dropdown items */
+.dropdown-menu a:hover {
+    background-color: rgb(219, 221, 250);
+}
+.contact{
+    position: relative;
+    min-height: 100px;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+     background: url(bgimage.jpg);
+    background-size: cover;
+}
+
+.contact .content{
+    max-width: 800px;
+    text-align: center;
+}
+.contact .content h1{
+    font-size: 36px;
+    font-weight: 500;
+    color: #110101;
+}
+.contact .content p{
+    font-weight: 300;
+    color: #7c260c;
+    font-size: larger;
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.container .contactInfo{
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 380px;
+}
+.container .contactInfo .box{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+
+}
+.container .contactInfo .box .icon{
+    min-width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    font-size: 22px;
+    color: white;
+
+}
+.container .contactInfo .box .text{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #060466;
+    flex-direction: column;
+    font-weight: 300;
+}
+.container .contactInfo .box .text h3{
+    font-weight: 500;
+    color: #050331;
+}
+.contactForm{
+    width: 40%;
+    padding: 40px;
+    background: #fff;
+    border-radius: 10px;
+    height: 400px;
+    
+}
+.contactForm h2{
+    font-size: 30px;
+    color: #333;
+    font-weight: 500px;
+}
+.contactForm .inputBox{
+    position: relative;
+    width: 100px;
+    margin-top: 10px;
+    
+}
+.contactForm .inputBox input,
+.contactForm .inputBox textarea{
+    width: 350px; 
+    padding: 5px 0;
+    font-size: 13px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    /* resize:none; */
+    font-family: cursive;
+}
+.contactForm .inputBox label{
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 13px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+}
+.contactForm .inputBox [type=button]{
+ background-color:#4267b2;
+ resize: none;
+}
+/* .contact .content{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: -1rem 0;
+    margin: 9px 0;
+} */

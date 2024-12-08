@@ -1,0 +1,101 @@
+nav ul {
+    list-style: none;
+    background-color:rgb(241, 212, 222);
+    padding: 0;
+    margin: 0;
+    /* text-align: center; */
+    padding-left: 100px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    font-family: cursive;
+}
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+    position: relative;
+}
+nav ul li a:hover{
+    color: rgb(29, 32, 233);
+    border-radius: 5px;
+    box-shadow: 0 0  5px #3633ff,
+                0 0  5px #66ffff;
+}
+nav a {
+    text-decoration: none;
+    color: #050000;
+    padding: 10px 20px;
+    display: block;
+}
+/* Style the dropdown menu */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: rgb(247, 229, 229);
+    z-index: 1;
+    padding: 0;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+    color: rgb(27, 41, 241);
+    box-shadow: none;
+    width: 100px;
+}
+.dropdown-menu li {
+    margin: 0;
+    text-align: center;
+}
+.dropdown-menu a {
+    padding: 10px 20px;
+    display: block;
+}
+/* Add hover effect to the dropdown items */
+.dropdown-menu a:hover {
+    background-color: rgb(219, 221, 250);
+}
+.div2{
+    padding-left: 400px;
+    color: #fff;
+    display: inline-block;
+}
+.box1{
+    margin-top: 0px;
+    width: 1500px;
+    background-color: blue;
+}
+.box1 img{
+    width: 1000px;
+}
+/* add product contents */
+    
+.shop-section{
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+.box{
+   /** border: 2px solid black;*/
+    height: 400px;
+    width:23% ;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+.box-image{
+    height: 300px;
+    background-size:cover;
+    margin-top:1rem;
+    
+}
+.box-content{
+margin-left: 10px;
+margin-right: 1rem;
+margin-bottom: 7rem;
+}
+.boxcontent p{
+   color:hwb(0 0% 100%);
+   padding-bottom: 5px; 
+}
+ .btn{ 
+    background-color:rgb(195,194,221);
+}

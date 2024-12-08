@@ -1,0 +1,126 @@
+body{
+    background-color: #344a34;
+    font-family:cursive;
+}
+.signup-box{
+    width: 360px;
+    height: 830px;
+    margin: auto;
+    background-color: white;
+    
+}
+.login-box{
+    width: 360px;
+    height: 530px;
+    margin: auto;
+    border-radius: 3px;
+    background-color: white;
+   
+}
+h1{
+    text-align: center;
+    padding-top: 15px;
+}
+h4{
+    text-align: center;
+}
+form{
+    width: 300px;
+    margin-left: 20px;
+}
+form label{
+    display: flex;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+form input{
+    width: 300px;
+    padding: 7px;
+    border: none;
+    border: 1px solid grey;
+    border-radius: 6px;
+    outline: none;
+}
+.login-box [type="button"],
+.signup-box [type="button"]{
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color:#4267b2;
+    color: white;
+    font: optional;
+
+}
+
+p{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+}
+.para-2{
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    margin-top: -10px;
+}
+.para-2{
+    color: black;
+}
+.line{
+    position: relative;
+    height: 1px;
+    width: 360px;
+    background-color:rgb(182, 164, 164);
+}
+.line::before{
+    content: 'Or';
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    right: 55%;
+    transform: translate(-50%,-50%);
+    background-color: #fff;
+    color: #232836;
+    padding: 0 15%;
+}
+.form-link{
+    text-align: center;
+    margin-top: 10px;
+}
+.form-link a{
+    text-decoration: none;
+}
+.media-option{
+    text-align: center;
+}
+.media-option a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    padding: 7px;
+    border: none;
+    border-radius: 6px;
+    outline: none;
+    align-items: center;
+    margin-left: 20px;
+    text-decoration: none;
+}
+a.facebook {
+    color: #fff;
+    background-color: #4267b2;
+}
+a.Google{
+    color: #fff;
+    background-color: #4267b2;
+}
+.login-box #Email_error,
+.login-box #Password_error{
+    margin-top: 5px;
+    width: 345px;
+    font-size: 13px;
+    color: #c62828;
+    text-align: center;
+    display: none;
+}
